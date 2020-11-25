@@ -15,8 +15,11 @@ function greet(time){
 if (parseInt(a,10)<12)
 return("Good Morning");
 else if ((parseInt(a,10)>12)&&(parseInt(a,10)<17))
-console.log("Good Afternoon");
+return("Good Afternoon");
 else if (parseInt(a,10)>5)
-console.log("Good Evening")
+return("Good Evening")
 }
 /* Write your implementation of displayMessage() */
+function displayMessage(b){
+  
+}
