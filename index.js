@@ -14,9 +14,9 @@ function greet(time){
   let a =time.split(':')[0];
 if (parseInt(a,10)<12)
 console.log("Good Morning");
-else if ((a.parseInt()>12)&&(a.parseInt()<5))
+else if ((parseInt(a,10)>12)&&(parseInt(a,10)<17))
 console.log("Good Afternoon");
-else if (a.parseInt()>5)
+else if (parseInt(a,10)>5)
 console.log("Good Evening")
 }
 /* Write your implementation of displayMessage() */
