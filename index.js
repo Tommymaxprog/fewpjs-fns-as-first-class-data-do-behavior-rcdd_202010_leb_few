@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(time){
   let a =time.split(':')[0];
-if (a.parseInt()<12)
+if (parseInt(a,10)<12)
 console.log("Good Morning");
 else if ((a.parseInt()>12)&&(a.parseInt()<5))
 console.log("Good Afternoon");
